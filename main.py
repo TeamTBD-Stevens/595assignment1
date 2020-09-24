@@ -18,6 +18,8 @@ plt.ylim(-2, 2)
 plt.hlines(0, 0, 2*pi, colors="grey", linestyles="dashed")
 plt.xlabel("X")
 plt.legend(loc="upper left")
-plt.show()
+
+if __name__ == "__main__":
+    plt.show()
 
 # Please make the third curve "darkseagreen", thank you
