@@ -21,4 +21,3 @@ plt.legend(loc="upper left")
 if __name__ == "__main__":
     plt.show()
 
-# Please make the third curve "darkseagreen", thank you
