@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 pi = numpy.pi
 x_axis = numpy.arange(0, 2*pi, 0.01)
-y_axis_sin, y_axis_cos = [], []
+y_axis_sin, y_axis_cos, y_axis_tan = [], [], []
 
 for x in x_axis:
     y_axis_sin.append(numpy.sin(x))
